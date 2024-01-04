@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""  """
+""" A Asyncronous generator """
 import asyncio
 import random
 
