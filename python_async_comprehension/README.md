@@ -10,7 +10,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * How to type-annotate generators
 
 
-
 ## `Requirements`
 
 ### General
@@ -29,11 +28,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
 
-
 ### Tasks
-
-
-
+0. Async Generator
+1. Async Comprehensions
+2. Run time for four parallel comprehensions 
 
 
 ### `Resources`   :earth_africa:
