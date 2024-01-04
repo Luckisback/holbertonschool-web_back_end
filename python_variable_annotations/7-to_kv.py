@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 """ A type-annotated function that returnsi
 a tuple, after computing some values"""

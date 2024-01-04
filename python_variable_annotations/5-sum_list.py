@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 """ A type-annotated function that
 returns the sum of a list's elements """
