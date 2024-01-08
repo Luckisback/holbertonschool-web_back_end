@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
-
-""" A Asyncronous generator """
+""" coroutine called async_generator """
 import asyncio
-import random
+from random import uniform
+from typing import Generator
 
 
-async def async_generator():
-    """ definition of the Asyncronous generator """
-    
-    for _ in range(10):
+async def async_generator() -> Generator[float, None, None]:
+    """attribute a random number """
+    for i in range(10):
         await asyncio.sleep(1)
-        yield random.uniform(0, 10)
+        yield uniform(0, 10)
