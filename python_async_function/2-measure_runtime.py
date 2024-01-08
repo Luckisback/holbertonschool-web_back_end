@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 
+""" Measure the runtime """
+
 import time
 from typing import List
 import importlib
+
 wait_n = importlib.import_module('1-concurrent_coroutines').wait_n
 
-
 def measure_time(n: int, max_delay: int) -> float:
+    """ measure the runtime """
     start_time = time.time()
     result = wait_n(n, max_delay)
     end_time = time.time()
