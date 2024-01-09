@@ -1,0 +1,4 @@
+// The script that list all NongoDB databases
+
+
+show collections
