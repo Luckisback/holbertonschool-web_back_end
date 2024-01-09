@@ -7,6 +7,6 @@ import pymongo
 
 def list_all(mongo_collection):
     """ Defintion of the function"""
-    if not db.mongo_collection.count():
+    if not mongo_collection:
         return []
-    return list(db.mongo_collection.find())
+    return list(mongo_collection.find())
