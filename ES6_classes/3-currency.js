@@ -1,3 +1,4 @@
+
 export default class Currency {
   constructor(code, name) {
     this._code = this.validateString(code, 'code');
